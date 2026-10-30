@@ -1,0 +1,1 @@
+{"estimators": ["rf_model", "xgb_model"], "weights": [1, 1]}

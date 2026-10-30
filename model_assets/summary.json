@@ -1,0 +1,113 @@
+{
+  "n_properties": 7000,
+  "mean_price": 21944621.88242857,
+  "median_price": 19157037.0,
+  "min_price": 1500000.0,
+  "max_price": 144829423.0,
+  "avg_price_by_location_m": {
+    "Karen": 28.5,
+    "Kileleshwa": 26.9,
+    "Kilimani": 27.4,
+    "Kitengela": 11.6,
+    "Mombasa": 14.1,
+    "Ruaka": 18.8,
+    "Runda": 29.6,
+    "Syokimau": 14.7,
+    "Thika Road": 16.4,
+    "Westlands": 31.8
+  },
+  "avg_price_by_type_m": {
+    "Apartment": 21.9,
+    "Bungalow": 21.8,
+    "Maisonette": 22.0,
+    "Townhouse": 22.2,
+    "Villa": 21.8
+  },
+  "avg_price_per_sqm_by_location": {
+    "Karen": 172599.38,
+    "Kileleshwa": 163102.24,
+    "Kilimani": 167247.42,
+    "Kitengela": 73226.27,
+    "Mombasa": 87992.7,
+    "Ruaka": 117138.14,
+    "Runda": 181774.74,
+    "Syokimau": 91148.17,
+    "Thika Road": 102951.57,
+    "Westlands": 198014.47
+  },
+  "metrics": {
+    "Random Forest": {
+      "r2": 0.8950318399437782,
+      "rmse": 2750484.803333428,
+      "mae": 2162962.402434096
+    },
+    "XGBoost": {
+      "r2": 0.8982618931125419,
+      "rmse": 2701835.953440236,
+      "mae": 2098387.3209523805
+    },
+    "Voting Regressor (final)": {
+      "r2": 0.8990188076156183,
+      "rmse": 2649830.844279366,
+      "mae": 2085694.45221028
+    }
+  },
+  "final_model": "Voting Regressor (final)",
+  "locations": [
+    "Karen",
+    "Kileleshwa",
+    "Kilimani",
+    "Kitengela",
+    "Mombasa",
+    "Ruaka",
+    "Runda",
+    "Syokimau",
+    "Thika Road",
+    "Westlands"
+  ],
+  "property_types": [
+    "Apartment",
+    "Bungalow",
+    "Maisonette",
+    "Townhouse",
+    "Villa"
+  ],
+  "plot_sizes": [
+    0,
+    100,
+    200,
+    300,
+    500,
+    1000
+  ],
+  "ranges": {
+    "Bedrooms": [
+      1.0,
+      6.0
+    ],
+    "Bathrooms": [
+      1.0,
+      5.0
+    ],
+    "Floor_Area_Sqm": [
+      33.6,
+      1000.0
+    ],
+    "Age_Years": [
+      0.0,
+      34.0
+    ],
+    "Parking_Spaces": [
+      0.0,
+      4.0
+    ],
+    "Distance_CBD_KM": [
+      2.0,
+      35.0
+    ],
+    "Amenities_Score": [
+      1.0,
+      10.0
+    ]
+  }
+}
